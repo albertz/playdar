@@ -1,3 +1,9 @@
+### prefpane branch alterations
+SET(CMAKE_BUILD_TYPE Release)
+SET(CMAKE_CXX_FLAGS_RELEASE "-Os -fvisibility-inlines-hidden")
+SET(CMAKE_C_FLAGS_RELEASE "-Os -fvisibility-inlines-hidden")
+
+### standard RJ master follows
 PROJECT(playdarproject)
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6 FATAL_ERROR)
 
